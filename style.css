@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zodiak', serif;
+}
+
+body{
+    background-image: url(images/hands.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+header{
+    text-align: center;
+    margin: 20px auto 10px;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+form{
+    width: 70%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 20px;
+}
+
+.profile{
+    margin-bottom: 20px;
+}
+
+.details input{
+    padding: 8px;
+    width: 80%;
+    border-radius: 70px;
+    background: transparent;
+    border: 2px solid white;
+}
+
+select{
+    color: #fff;
+    padding: 8px 3px;
+    width: 80%;
+    border-radius: 70px;
+    background: transparent;
+    border: 2px solid white;
+}
+
+textarea{
+    padding: 8px;
+    width: 100%;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid white;
+}
+
+button{
+    width: 100%;
+    padding: 8px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #fff;
+}
